@@ -28,6 +28,7 @@
   "homepage": "https://github.com/hparcells/vlc-song#readme",
   "devDependencies": {
     "@types/xml2js": "^0.4.5",
+    "@types/yargs": "^15.0.5",
     "@typescript-eslint/parser": "^3.6.1",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
@@ -37,6 +38,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.4.23",
+    "yargs": "^15.4.1"
   }
 }
