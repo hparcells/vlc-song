@@ -1,0 +1,42 @@
+{
+  "name": "vlc-song",
+  "version": "1.0.0",
+  "description": "Gets the currently playing song in VLC.",
+  "main": "./out/index.js",
+  "bin": "./out/index.js",
+  "files": [
+    "out/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix src/**/*",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hparcells/vlc-song.git"
+  },
+  "keywords": [
+    "vlc"
+  ],
+  "author": "Hunter Parcells",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hparcells/vlc-song/issues"
+  },
+  "homepage": "https://github.com/hparcells/vlc-song#readme",
+  "devDependencies": {
+    "@types/xml2js": "^0.4.5",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "xml2js": "^0.4.23"
+  }
+}
