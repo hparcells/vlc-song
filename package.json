@@ -1,6 +1,6 @@
 {
   "name": "vlc-song",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gets the currently playing song in VLC.",
   "main": "./out/index.js",
   "bin": "./out/index.js",
